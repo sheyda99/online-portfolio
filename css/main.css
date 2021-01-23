@@ -1,0 +1,107 @@
+body {
+    font-family: 'Concert One', cursive;
+}
+* {
+    outline: none;
+}
+
+/*** Navbar ***/
+header {
+    box-shadow: 0px 0px 5px #383b5e;
+}
+.navbar-brand h1 {
+    color: #383b5e;
+    font-style: italic;
+}
+.nav-link {
+    color: #383b5e !important;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.nav-link:hover:not(.active) {
+    background-color: #eee;
+}
+.nav-link.active {
+    background-color: #383b5e;
+    color: #ffffff !important;
+}
+.navbar-toggler {
+    border: none;
+    color: #383b5e !important;
+}
+
+@media (max-width: 992px) {
+    .nav-link {
+        text-align: center;
+        margin: 0;
+    }
+}
+
+
+/*** Jumbotron ***/
+.jumbotron {
+    border-radius: 0;
+    background: url("../images/jumbotron.jpg") no-repeat center;
+    background-size: cover;
+}
+.jumbotron p {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+.jumbotron .btn:hover {
+    color: #383b5e;
+}
+
+
+/*** Main section ***/
+#my-works h2 {
+    color: #383b5e;
+}
+#my-works > div {
+    min-height: 100px;
+}
+#my-works .work-item img {
+    width: 100%;
+    border: 2px solid #383b5e;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+#my-works .work-item .description {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #383b5e;
+    color: #ffffff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+#my-works .work-item:hover img {
+    box-shadow: 0px 0px 15px #383b5e;
+}
+#my-works .btn {
+    border-color: #383b5e;
+    color: #383b5e;
+}
+#my-works .btn:hover {
+    background-color: #383b5e;
+    color: #ffffff;
+}
+
+
+/*** Footer ***/
+footer {
+    background-color: #383b5e;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer .email {
+    color: #ffffff;
+}
+footer .btn {
+    color: #ffffff;
+}
+footer .btn:hover {
+    background-color: #eeeeee;
+    color: #383b5e;
+}
